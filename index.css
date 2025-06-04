@@ -1,0 +1,359 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.upnav {
+    display: flex;
+    justify-content: center;
+}
+
+.option {
+    margin: 1rem 0 0 3rem;
+    padding: 1rem;
+
+}
+
+img[ alt="logo"] {
+    height: 2%;
+    margin-top: 1%;
+    padding-left: 2rem;
+}
+
+.opt,
+input {
+    color: gray;
+    cursor: pointer;
+    border: 2px solid rgb(204, 202, 202);
+    border-collapse: collapse;
+    border-radius: 4px;
+    padding: 5px 0 5px;
+}
+
+input {
+    padding: 5px 20rem 5px 0;
+}
+
+/* -----, */
+i {
+    font-size: 150%;
+    margin-right: 0.5rem;
+    color: aqua;
+}
+
+.side button {
+    padding: 7px 25px;
+    border: none;
+    cursor: pointer;
+    margin-top: 2rem;
+    background-color: #fff;
+    margin-left: 5rem;
+}
+
+.side a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #fff;
+    margin-left: 5rem;
+}
+
+.side .in {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    z-index: 99;
+}
+
+.side:hover .in {
+    display: block;
+}
+
+.side a:hover {
+    color: aqua;
+}
+
+/* wish */
+.wishlist button {
+    padding: 7px 25px;
+    border: none;
+    cursor: pointer;
+    margin-top: 2rem;
+    background-color: #fff;
+}
+
+.wishlist a {
+    text-decoration: none;
+    color: black;
+}
+
+/* --cart-- */
+.cart button {
+    padding: 7px 25px;
+    border: none;
+    cursor: pointer;
+    margin-top: 2rem;
+    background-color: #fff;
+}
+
+.cart a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #fff;
+}
+
+.cart .checkout {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    z-index: 99;
+}
+
+.cart:hover .checkout {
+    display: block;
+}
+
+.cart a:hover {
+    color: aqua;
+}
+
+/* --end of head1--- */
+/* --start of head2-- */
+.head ul {
+    display: flex;
+    list-style: none;
+    /* justify-content: center; */
+}
+
+.home button {
+    padding: 7px 25px;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    background-color: #fff;
+    font-size: 1.1rem;
+}
+
+.home a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #fff;
+}
+
+.Categories button {
+    padding: 7px 25px;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    background-color: #fff;
+    font-size: 1.1rem;
+}
+
+.Categories a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #fff;
+}
+
+.Categories .catego {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    z-index: 99;
+}
+
+.Categories:hover .catego {
+    display: block;
+}
+
+.Categories a:hover {
+    color: aqua;
+}
+
+.products button {
+    padding: 7px 25px;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    background-color: #fff;
+    font-size: 1.1rem;
+}
+
+.products a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #fff;
+}
+
+.products .prod {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    z-index: 99;
+}
+
+.products:hover .prod {
+    display: block;
+}
+
+.products a:hover {
+    color: aqua;
+}
+
+.page button {
+    padding: 7px 25px;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    background-color: #fff;
+    font-size: 1.1rem;
+}
+
+.page a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #fff;
+}
+
+.page .pag {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    z-index: 99;
+}
+
+.page:hover .pag {
+    display: block;
+}
+
+.page a:hover {
+    color: aqua;
+}
+
+
+
+.Blog button {
+    padding: 7px 25px;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    background-color: #fff;
+    font-size: 1.1rem;
+}
+
+.Blog a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #fff;
+}
+
+.Blog .blo {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    z-index: 99;
+}
+
+.Blog:hover .blo {
+    display: block;
+}
+
+.Blog a:hover {
+    color: aqua;
+}
+
+.offers button {
+    padding: 7px 25px;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    background-color: #fff;
+    font-size: 1.1rem;
+}
+
+.offers a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #fff;
+}
+
+.city {
+    padding: 10px 1rem 10px 1rem;
+    margin-left: 40%;
+}
+
+/* ---END  OF THE HEADER--- */
+/* ---start of main--- */
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    /* background: #000; */
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #F8F8FB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.text{
+    font-size: larger;
+    /* text-align: center; */
+    /* justify-items: center; */
+    width: 700px;
+}
+p{
+    color: rgb(203, 203, 203);
+}
+span{
+    color: rgb(146, 146, 228);
+}
+.but{
+    margin-right: 17rem;
+    margin-top: 5rem;
+    padding: 1rem;
+    border-radius: 14px;
+    font-size: 18px;
+    border: 2px solid rgb(210, 210, 210);
+    color: rgb(148, 147, 147);
+}
+/* ---End Of swip--- */
